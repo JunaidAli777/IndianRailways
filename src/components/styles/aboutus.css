@@ -1,0 +1,48 @@
+.aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+}
+
+.sidebar {
+    width: 22.75%;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebarhead {
+    background-color: #0E6204;
+    padding: 0.5rem;
+}
+
+.sidebarbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #073302;
+    padding: 1rem;
+    color: white;
+    padding-bottom: 170px;
+}
+
+
+.page {
+ width: 77.25%;   
+}
+
+.page h4 {
+    color: #A52A2A;
+    text-decoration: underline;
+}

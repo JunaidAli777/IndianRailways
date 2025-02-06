@@ -1,0 +1,103 @@
+.full-header {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.greenbar {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 1.25rem;
+  background-color: #073302;
+  gap: 0.5rem;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .indianraillogo,
+  .irisetlogo {
+    display: block; 
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+    height: 7.5rem;
+  }
+
+  @media (max-width: 1160px) {
+    .full-header {
+      width: 60rem;
+    }
+
+    .indianraillogo,
+    .irisetlogo {
+    height: 6rem;
+    margin: 0;
+    padding: 0;
+  }
+    .container {
+      height: 6rem;
+    }
+  }
+
+  @media (max-width: 960px) {
+
+    .full-header {
+      width: 48.75rem;
+    }
+
+    .indianraillogo,
+    .irisetlogo {
+    height: 4.88rem;
+  }
+  .container {
+    height: 4.88rem;
+  }
+  }
+
+  @media (max-width: 790px) {
+
+    .full-header {
+      width: 32.5rem;
+    }
+
+    
+    .indianraillogo,
+    .irisetlogo {
+    height: 3.25rem;
+  }
+
+  .container {
+    height: 3.25rem;
+  }
+}
+
+
+
+
+  @media (max-width: 548px) {
+
+    .full-header {
+      width: 22.5rem;
+    }
+      .indianraillogo,
+      .irisetlogo {
+      height: 2.25rem;
+    }
+    .container {
+      height: 2.25rem;
+    }
+  }
