@@ -5,8 +5,8 @@ import XIcon from '@mui/icons-material/X';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from 'react-router-dom';
-import vcss from '../assets/vcss.png';
-import xhtml from '../assets/valid-xhtml10.png'
+import vcss from '/files/images/vcss.png';
+import xhtml from '/files/images/valid-xhtml10.png'
 
 
 const Footer = () => {
@@ -97,7 +97,7 @@ const Footer = () => {
         <div className='sec2sub2'>
             This is the Portal of Indian Railways, developed with an objective to enable 
             a single window access to information and services being provided by the 
-            various Indian Railways entities. The content in this Portal is the result of a 
+            various Indian Railways entities.<br /> The content in this Portal is the result of a 
             collaborative effort of various Indian Railways Entities and Departments 
             Maintained by CRIS, Ministry of Railways, Government of India.
         </div>

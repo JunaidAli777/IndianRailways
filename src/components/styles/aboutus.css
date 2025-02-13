@@ -1,7 +1,7 @@
 .aboutus {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     width: 100%;
     max-width: 75rem;
     margin-left: auto;
@@ -9,40 +9,56 @@
     gap: 1rem;
 }
 
-.sidebar {
+.aboutussidebar {
     width: 22.75%;
 }
 
-.sidebar a {
+.aboutussidebar a {
     color: white;
     text-decoration: none;
 }
 
-.sidebar a:hover {
+.aboutussidebar a:hover {
     text-decoration: underline;
 }
 
-.sidebarhead {
+.aboutussidebarhead {
     background-color: #0E6204;
     padding: 0.5rem;
+    height: 4%;
 }
 
-.sidebarbody {
+.aboutussidebarbody {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
     background-color: #073302;
+    gap: 0.5rem;
     padding: 1rem;
     color: white;
-    padding-bottom: 170px;
+    height: 84%;
 }
 
 
-.page {
+.aboutuspage {
+ font-family: arial;
  width: 77.25%;   
 }
 
-.page h4 {
+.aboutuspage h4 {
     color: #A52A2A;
     text-decoration: underline;
+}
+
+@media (max-width: 1160px) {
+    .aboutus {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutussidebar {
+        width: 77%;
+    }
 }

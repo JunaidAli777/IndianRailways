@@ -1,0 +1,58 @@
+.year2019 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+}
+
+.year2019sidebar {
+    width: 22.75%;
+}
+
+.year2019sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.year2019sidebar a:hover {
+    text-decoration: underline;
+}
+
+.year2019sidebarhead {
+    background-color: #0E6204;
+    padding: 0.5rem;
+    height: 4%;
+}
+
+.year2019sidebarbody {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-color: #073302;
+    padding: 1rem;
+    color: white;
+    height: 85%;
+    gap: 0.5rem
+}
+
+
+.year2019page {
+ width: 77.25%;   
+}
+
+@media (max-width: 1160px) {
+    .year2019 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .year2019sidebar {
+        width: 77%;
+    }
+}

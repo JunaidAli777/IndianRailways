@@ -1,48 +1,38 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import './styles/aboutus.css'
+import { Link } from 'react-router-dom';
+import './styles/aboutus.css';
+import PageSideHeader from './PageSideHeader';
+import PageSideFooter from './PageSideFooter';
 
 const AboutUs = () => {
-
-  const navigate = useNavigate();
-
-  const handleDropdownChange = (event) => {
-    const selectedPath = event.target.value;
-    if (selectedPath) {
-      navigate(selectedPath);
-    }
-  };
-
-
+  
   return (
     <div className='aboutus'>
-      <div className="sidebar">
-        <div className="sidebarhead">
+      <div className="aboutussidebar">
+        <div className="aboutussidebarhead">
             <Link to='/'>Home</Link>
         </div>
-        <div className="sidebarbody">
+        <div className="aboutussidebarbody">
             <div>
-            <span>&gt;&gt;&nbsp;</span>   <Link to='/mgmtnfclty' >Management & Faculty</Link>
+              <span>&gt;&gt;&nbsp;</span>   <Link to='/aboutus/managementandfaculty' >Management & Faculty</Link>
             </div>
 
             <div>
-            <span>&gt;&gt;&nbsp;</span>   <Link to='/iriset' >Reaching IRISET</Link>
+              <span>&gt;&gt;&nbsp;</span>   <Link to='/aboutus/reachingiriset' >Reaching IRISET</Link>
             </div>
 
             <div>
-            <span>&gt;&gt;&nbsp;</span>    <Link to='/ipr' >Immovable Property Returns</Link>
+              <span>&gt;&gt;&nbsp;</span>    <Link to='/aboutus/immovablepropertyreturns' >Immovable Property Returns</Link>
             </div>
 
             <div>
-            <span>&gt;&gt;&nbsp;</span>    <Link to='/pp' >Portal Policies</Link>
+              <span>&gt;&gt;&nbsp;</span>    <Link to='/aboutus/portalpolicies' >Portal Policies</Link>
             </div>
         </div>
       </div>
-      <div className="page">
-        <div className="pagehead">
-
-        </div>
-
+      <div className="aboutuspage">
+        <PageSideHeader />
+        
         <h4>
             IRISET : S&T Centralized Training Institute
         </h4>
@@ -74,6 +64,10 @@ const AboutUs = () => {
             Signalling & Telecommunication to provide hands on training in the Institute. 
             The lecture halls are equipped with the modern teaching aids.
         </p>
+
+        <PageSideFooter />
+
+        
     </div>
     </div>
   )

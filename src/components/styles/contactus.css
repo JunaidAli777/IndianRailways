@@ -1,0 +1,58 @@
+.contactus {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+}
+
+.contactussidebar {
+    width: 22.75%;
+}
+
+.contactussidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.contactussidebar a:hover {
+    text-decoration: underline;
+}
+
+.contactussidebarhead {
+    background-color: #0E6204;
+    padding: 0.5rem;
+    height: 4%;
+}
+
+.contactussidebarbody {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-color: #073302;
+    gap: 0.5rem;
+    padding: 1rem;
+    color: white;
+    height: 83%;
+}
+
+
+.contactuspage {
+ width: 77.25%;   
+}
+
+@media (max-width: 1160px) {
+    .contactus {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactussidebar {
+        width: 77%;
+    }
+}

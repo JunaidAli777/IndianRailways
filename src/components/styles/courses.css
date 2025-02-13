@@ -1,0 +1,57 @@
+.courses {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+}
+
+.coursessidebar {
+    width: 22.75%;
+}
+
+.coursessidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.coursessidebar a:hover {
+    text-decoration: underline;
+}
+
+.coursessidebarhead {
+    background-color: #0E6204;
+    padding: 0.5rem;
+    height: 6%;
+}
+
+.coursessidebarbody {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-color: #073302;
+    padding: 1rem;
+    color: white;
+    height: 73%;
+}
+
+
+.coursespage {
+ width: 77.25%;   
+}
+
+@media (max-width: 1160px) {
+    .courses {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .coursessidebar {
+        width: 77%;
+    }
+}

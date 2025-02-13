@@ -1,0 +1,58 @@
+.nirpersonnel {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+}
+
+.nirpersonnelsidebar {
+    width: 22.75%;
+}
+
+.nirpersonnelsidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.nirpersonnelsidebar a:hover {
+    text-decoration: underline;
+}
+
+.nirpersonnelsidebarhead {
+    background-color: #0E6204;
+    padding: 0.5rem;
+    height: 2.5%;
+}
+
+.nirpersonnelsidebarbody {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-color: #073302;
+    gap: 0.5rem;
+    padding: 1rem;
+    color: white;
+    height: 90%;
+}
+
+
+.nirpersonnelpage {
+ width: 77.25%;   
+}
+
+@media (max-width: 1160px) {
+    .nirpersonnel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nirpersonnelsidebar {
+        width: 77%;
+    }
+}

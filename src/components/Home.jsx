@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SideLink from './SideLink';
-import mkb from '../assets/mkb.jpg';
-import banner1 from '../assets/banner1.png';
-import accred from '../assets/accred.jpg';
-import pmo from '../assets/pmo.jpg';
-import min1 from '../assets/min1.jpeg';
-import min2 from '../assets/min2.jpg';
-import min3 from '../assets/min3.jpeg';
+import mkb from '/files/images/mkb.jpg';
+import banner1 from '/files/images/banner1.png';
+import accred from '/files/images/accred.jpg';
+import pmo from '/files/images/pmo.jpg';
+import min1 from '/files/images/min1.jpeg';
+import min2 from '/files/images/min2.jpg';
+import min3 from '/files/images/min3.jpeg';
 import MinCard from './minCard';
 import './styles/Home.css';
 

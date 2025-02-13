@@ -1,0 +1,84 @@
+.otherrailwaysites {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+}
+
+.otherrailwaysitessidebar {
+    width: 22.75%;
+}
+
+.otherrailwaysitessidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.otherrailwaysitessidebar a:hover {
+    text-decoration: underline;
+}
+
+.otherrailwaysitessidebarhead {
+    background-color: #0E6204;
+    padding: 0.5rem;
+    height: 1%;
+}
+
+.otherrailwaysitessidebarbody {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-color: #073302;
+    gap: 0.5rem;
+    padding: 1rem;
+    color: white;
+    height: 95%;
+}
+
+
+.otherrailwaysitespage {
+ width: 77.25%;   
+}
+
+.otherrailwaysitespage h2 {
+    display: block;
+    margin: 1rem auto;
+    width: fit-content;
+    color: #0073E6;
+}
+
+.links {
+    display: flex; 
+    justify-content: left; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 1rem
+}
+
+@media (max-width: 1160px) {
+    .otherrailwaysites {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .otherrailwaysitessidebar {
+        width: 77%;
+    }
+}
+
+@media (max-width: 480px) {
+    .links {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        flex-wrap: wrap; 
+        gap: 1rem
+    }
+}

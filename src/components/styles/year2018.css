@@ -1,0 +1,58 @@
+.year2018 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+}
+
+.year2018sidebar {
+    width: 22.75%;
+}
+
+.year2018sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.year2018sidebar a:hover {
+    text-decoration: underline;
+}
+
+.year2018sidebarhead {
+    background-color: #0E6204;
+    padding: 0.5rem;
+    height: 4%;
+}
+
+.year2018sidebarbody {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-color: #073302;
+    padding: 1rem;
+    color: white;
+    height: 82.5%;
+    gap: 0.5rem
+}
+
+
+.year2018page {
+ width: 77.25%;   
+}
+
+@media (max-width: 1160px) {
+    .year2018 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .year2018sidebar {
+        width: 77%;
+    }
+}

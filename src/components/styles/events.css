@@ -1,0 +1,54 @@
+.events {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+}
+
+.eventssidebar {
+    width: 22.75%;
+}
+
+.eventssidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.eventssidebar a:hover {
+    text-decoration: underline;
+}
+
+.eventssidebarhead {
+    background-color: #0E6204;
+    padding: 0.5rem;
+    height: 0.14%;
+}
+
+.eventssidebarbody {
+    height: 99.6%;
+    background-color: #073302;
+}
+
+
+.eventspage {
+ width: 77.25%;
+ font-family: arial;
+ font-size: 1.2rem;
+}
+
+@media (max-width: 1160px) {
+    .events {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eventssidebar {
+        width: 80%;
+    }
+}
