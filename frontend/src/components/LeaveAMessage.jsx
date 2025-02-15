@@ -41,28 +41,28 @@ const LeaveAMessage = () => {
         </div>
         <div className="leaveamessagesidebarbody">
           <div>
-            <Link to='/contactus/disclaimer' >Disclaimer</Link>
+          <span>&gt;&gt;&nbsp;</span> <Link to='/contactus/disclaimer' >Disclaimer</Link>
           </div>
 
           <div>
-            <Link to='/contactus/righttoinformation' >Right To Information</Link>
+            <span>&gt;&gt;&nbsp;</span> <Link to='/contactus/righttoinformation' >Right To Information</Link>
           </div>
 
 
           <div>
-            <Link to='/contactus/nirpersonnel' >Non-IR Personnel</Link>
+            <span>&gt;&gt;&nbsp;</span> <Link to='/contactus/nirpersonnel' >Non-IR Personnel</Link>
           </div>
 
           <div>
-            <Link to='/contactus/privacypolicy' >Privacy Policy</Link>
+            <span>&gt;&gt;&nbsp;</span> <Link to='/contactus/privacypolicy' >Privacy Policy</Link>
           </div>
 
           <div>
-            <Link to='/contactus/tandc' >Terms and Conditions</Link>
+            <span>&gt;&gt;&nbsp;</span> <Link to='/contactus/tandc' >Terms and Conditions</Link>
           </div>
 
           <div>
-            <Link to='/contactus/otherrailwaysites' >Other Railway Sites</Link>
+            <span>&gt;&gt;&nbsp;</span> <Link to='/contactus/otherrailwaysites' >Other Railway Sites</Link>
           </div>
         </div>
       </div>
