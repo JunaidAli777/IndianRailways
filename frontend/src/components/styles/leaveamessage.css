@@ -1,0 +1,61 @@
+.leaveamessage {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+}
+
+.leaveamessagesidebar {
+    width: 22.75%;
+}
+
+.leaveamessagesidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.leaveamessagesidebar a:hover {
+    background-color: white;
+    color: #0081A7;
+    padding: 0.1875rem;
+    border-radius: 0.3125rem;
+}
+
+.leaveamessagesidebarhead {
+    background-color: #6fa3c2;
+    padding: 0.5rem;
+    height: 2.5%;
+}
+
+.leaveamessagesidebarbody {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    background-color: #0081A7;
+    gap: 0.5rem;
+    padding: 1rem;
+    color: white;
+    height: 90%;
+}
+
+
+.leaveamessagepage {
+ width: 77.25%;   
+}
+
+@media (max-width: 1160px) {
+    .leaveamessage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leaveamessagesidebar {
+        width: 77%;
+    }
+}
